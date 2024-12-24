@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { Course } from './course';
+import { StarComponent } from '../assets/star/star.component';
 
 @Component({
   selector: 'app-course-list',
-  imports: [ CommonModule],
+  imports: [CommonModule, StarComponent],
   templateUrl: './course-list.component.html',
 })
 export class CourseListComponent {
@@ -15,8 +16,8 @@ export class CourseListComponent {
     this.course = [
       {
         id: 1,
-        name: 'Angular: HTTP',
-        imageUrl: '',
+        name: 'Angular: Forms',
+        imageUrl: 'assets/images/forms.png',
         price: 99.99,
         code: 'ANG-101',
         duration: 120,
@@ -25,12 +26,12 @@ export class CourseListComponent {
       },
       {
         id: 2,
-        name: 'Angular: Getting Started',
-        imageUrl: '',
-        price: 99.99,
+        name: 'Angular: HTTP',
+        imageUrl: 'assets/images/http.png',
+        price: 45.99,
         code: 'XPS-1090',
         duration: 120,
-        rating: 4.5,
+        rating: 4.3,
         releaseDate: 'March 19, 2021',
       },
     ];
