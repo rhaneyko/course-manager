@@ -21,7 +21,7 @@ export class CourseListComponent {
         price: 99.99,
         code: 'ANG-101',
         duration: 120,
-        rating: 4.5,
+        rating: 4,
         releaseDate: 'March 19, 2021',
       },
       {
@@ -31,7 +31,7 @@ export class CourseListComponent {
         price: 45.99,
         code: 'XPS-1090',
         duration: 120,
-        rating: 4.3,
+        rating: 1,
         releaseDate: 'March 19, 2021',
       },
     ];
